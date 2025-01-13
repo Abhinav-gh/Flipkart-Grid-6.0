@@ -15,8 +15,8 @@ pip install -r requirements.txt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Transyltooniaa/FlipkartGrid_SmartVision.git
-   cd FlipkartGrid_SmartVision
+   git clone git@github.com:Abhinav-gh/Flipkart-Grid-6.0.git
+   cd Flipkart-Grid-6.0
    ```
 
 2. Install the dependencies:
