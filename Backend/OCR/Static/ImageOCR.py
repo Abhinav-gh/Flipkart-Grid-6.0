@@ -11,7 +11,7 @@ from ultralytics import YOLO
 from dotenv import load_dotenv
 import os
 
-load_dotenv('../../../config/.env.example')
+load_dotenv('../../../config/.env')
 GOOGLE_API_KEY = os.getenv("GEMINI_API")
 genai.configure(api_key=GOOGLE_API_KEY)
 
