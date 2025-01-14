@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 # Define paths
 ocr = PaddleOCR(use_angle_cls=True, lang='en')
-load_dotenv('../../../config/.env.example')
+load_dotenv('../../../config/.env')
 GOOGLE_API_KEY = os.getenv("GEMINI_API")
 genai.configure(api_key=GOOGLE_API_KEY)
 
